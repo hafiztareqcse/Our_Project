@@ -1,0 +1,215 @@
+body {
+  //background-image: url(../img/bg2.jpg);
+}
+#site-name{
+  font-style: italic;
+}
+
+.navbar {
+  background: #1B1B1B;
+   .dropdown-menu{
+     background: #1B1B1B;
+    opacity: .9;
+    a:hover{
+      background: black;
+    }
+   }
+  }
+
+.navbar .nav-link {
+  padding-left: 15px !important;
+  text-align: center;
+}
+
+.navbar .nav-link {
+  text-transform: uppercase; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-img-1 {
+  background: url("../img/bus16.png");
+  background-size: cover;
+ }
+
+.carousel-img-2 {
+  background: url("../img/plane1.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/medical.jpg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/sea.jpg");
+  background-size: cover; }
+.carousel-img-5 {
+  background: url("../img/ship.jpg");
+  background-size: cover; }
+
+#search{
+  background: url("../img/sbg.jpg");
+  input{
+
+  }
+}
+#icon-part{
+  min-height: 250px;
+  background: url("../img/iconbg.png");
+  .fa{
+    font-size: 80px;
+
+  }
+  .hover-icon:hover{
+    background-color:  #d9d9d9;
+  }
+}
+#list{
+
+  min-height: 700px;
+  background: url(../img/seat.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+
+
+  .dark-overlay{
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#counter{
+  min-height: 300px;
+  background:#f2f2f2;
+  hr{
+    color: black;
+  }
+  #counter-name{
+    background: #000033;
+    min-height: 100px;
+    span{
+      font-size: 20px;
+    }
+  }
+}
+
+#sub-list{
+  min-height: 400px;
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  .div1{
+    height: 50px;
+    border-radius: 8px;
+    background:     #000033;
+    a{
+      text-decoration: none;
+    }
+    .fa{
+      color: gray;
+      font-size: 20px;
+    }
+    h2{
+      //text-align: center;
+      font-size: 15px;
+      color: white;
+
+      display: inline-block;
+      margin-top: 15px;
+    }
+  }
+
+}
+#footer{
+  background-color: #1B1B1B;
+  a{
+    color: white;
+  }
+}
+
+// dhaka page style start.......................................................
+
+#dhaka-division-heading{
+  background: #000033;
+
+}
+#dhaka-sub-heading{
+  min-height: 300px;
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  .col-one{
+    background: black;
+  }
+}
+#districts-dropdown{
+  .dropdown-menu{
+    width: 300px;
+    font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// media quary code...........................
+@media (max-width: 768px)
+{
+  #list{
+    min-height: 755px;
+  }
+#sub-list{
+  .div1{
+    .fa{
+      font-size: 15px;
+    }
+    h2{
+      font-size: 14px;
+    }
+  }
+}
+
+
+}
+
+@media (max-width: 575px)
+{
+  #list{
+    min-height: 1190px;
+  }
+  #sub-list{
+    .div1{
+      .fa{
+        font-size: 12px;
+      }
+      h2{
+        font-size: 12px;
+      }
+    }
+  }
+}

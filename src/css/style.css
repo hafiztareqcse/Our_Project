@@ -1,0 +1,135 @@
+#site-name {
+  font-style: italic; }
+
+.navbar {
+  background: #1B1B1B; }
+  .navbar .dropdown-menu {
+    background: #1B1B1B;
+    opacity: .9; }
+    .navbar .dropdown-menu a:hover {
+      background: black; }
+
+.navbar .nav-link {
+  padding-left: 15px !important;
+  text-align: center; }
+
+.navbar .nav-link {
+  text-transform: uppercase; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-img-1 {
+  background: url("../img/bus16.png");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/plane1.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/medical.jpg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/sea.jpg");
+  background-size: cover; }
+
+.carousel-img-5 {
+  background: url("../img/ship.jpg");
+  background-size: cover; }
+
+#search {
+  background: url("../img/sbg.jpg"); }
+
+#icon-part {
+  min-height: 250px;
+  background: url("../img/iconbg.png"); }
+  #icon-part .fa {
+    font-size: 80px; }
+  #icon-part .hover-icon:hover {
+    background-color: #d9d9d9; }
+
+#list {
+  min-height: 700px;
+  background: url(../img/seat.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; }
+  #list .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#counter {
+  min-height: 300px;
+  background: #f2f2f2; }
+  #counter hr {
+    color: black; }
+  #counter #counter-name {
+    background: #000033;
+    min-height: 100px; }
+    #counter #counter-name span {
+      font-size: 20px; }
+
+#sub-list {
+  min-height: 400px;
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #sub-list .div1 {
+    height: 50px;
+    border-radius: 8px;
+    background: #000033; }
+    #sub-list .div1 a {
+      text-decoration: none; }
+    #sub-list .div1 .fa {
+      color: gray;
+      font-size: 20px; }
+    #sub-list .div1 h2 {
+      font-size: 15px;
+      color: white;
+      display: inline-block;
+      margin-top: 15px; }
+
+#footer {
+  background-color: #1B1B1B; }
+  #footer a {
+    color: white; }
+
+#dhaka-division-heading {
+  background: #000033; }
+
+#dhaka-sub-heading {
+  min-height: 300px;
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #dhaka-sub-heading .col-one {
+    background: black; }
+
+#districts-dropdown .dropdown-menu {
+  width: 300px;
+  font-size: 18px; }
+
+@media (max-width: 768px) {
+  #list {
+    min-height: 755px; }
+  #sub-list .div1 .fa {
+    font-size: 15px; }
+  #sub-list .div1 h2 {
+    font-size: 14px; } }
+
+@media (max-width: 575px) {
+  #list {
+    min-height: 1190px; }
+  #sub-list .div1 .fa {
+    font-size: 12px; }
+  #sub-list .div1 h2 {
+    font-size: 12px; } }
